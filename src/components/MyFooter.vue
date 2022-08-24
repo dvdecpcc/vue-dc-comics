@@ -26,11 +26,11 @@
                     <li><a href="#">ADVERTISING</a></li>
                     <li><a href="#">JOBS</a></li>
                     <li><a href="#">SUBSCRIPTIONS</a></li>
-                    <li><a href="#">TALENT WORKSHOPS</a>
-                    <li><a href="#">CPSC CERTIFICATES</a>
-                    <li><a href="#">RATINGS</a>
-                    <li><a href="#">SHOP HELPS</a>
-                    <li><a href="#">CONTACT US</a>
+                    <li><a href="#">TALENT WORKSHOPS</a></li>
+                    <li><a href="#">CPSC CERTIFICATES</a></li>
+                    <li><a href="#">RATINGS</a></li>
+                    <li><a href="#">SHOP HELPS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
                 </ul>
                  <h3>SITES</h3>
                 <ul>

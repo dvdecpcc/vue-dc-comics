@@ -23,47 +23,47 @@ export default {
                     text: 'CHARACTERS',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'COMICS',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'MOVIES',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'TV',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'GAMES',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'COLLECTIBLES',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'VIDEOS',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'FANS',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'NEWS',
                     url: '#',
                     active: false
-                }
+                },
                 {
                     text: 'SHOP',
                     url: '#',
