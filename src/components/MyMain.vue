@@ -105,7 +105,7 @@ export default {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-around;
-          padding: 50px 350px;
+          padding: 50px 200px;
           background-color: rgb(28,28,28);
 
         
@@ -114,8 +114,8 @@ export default {
            flex-basis: calc(100% / 6);
          }
          .imgWrapper{
-           height: 80px;
-           width: 80px;
+           height: 150px;
+           width: 150px;
            overflow: hidden;
 
            img{
@@ -127,14 +127,13 @@ export default {
           font-size: 10px;
           margin: 10px;
           color: white;
+          text-align: center;
         }
          
         } 
       .btn{
-        margin-top: 50px;
         background-color: rgb(1, 130, 249);
         color: white;
-        width: 100px;
         margin:20px auto;
         padding: 10px;
       }
