@@ -1,7 +1,7 @@
 <template>
   <header>
     <div>
-        <img src="../assets/img/dc-logo.png" alt="dc logo">
+        <img src="@/assets/img/dc-logo.png" alt="dc logo">
     </div>
     <div>
         <ul>
@@ -78,7 +78,7 @@ export default {
 <style lang="scss">
     header{
         display: flex;
-        justify-content: space space-between;
+        justify-content: space-between;
         align-items: center;
         height: 100px;
         width: 80%;

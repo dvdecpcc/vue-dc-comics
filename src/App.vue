@@ -1,27 +1,28 @@
 <template>
   <div id="app">
     <MyHeader/>
+    <MySection/>
     <MyMain/>
     <MyFooter/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
 import MyFooter from './components/MyFooter.vue'
+import MySection from './components/MySection.vue'
+
 
 
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     MyHeader,
     MyMain,
-    MyFooter
+    MyFooter,
+    MySection
   }
 }
 </script>
@@ -34,5 +35,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  max-height: 100vh;
 }
 </style>

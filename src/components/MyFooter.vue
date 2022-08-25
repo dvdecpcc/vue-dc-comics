@@ -49,11 +49,11 @@
             <div class="bottomFooterContainer">
                 <button>SIGN UP NOW</button>
                 <ul>
-                    <li><a href="#"><img src="../assets/img/footer-facebook.png" alt="fb logo"></a></li>
-                    <li><a href="#"><img src="../assets/img/footer-twitter.png" alt="tw logo"></a></li>
-                    <li><a href="#"><img src="../assets/img/footer-youtube.png" alt="yt logo"></a></li>
-                    <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt="pi logo"></a></li>
-                    <li><a href="#"><img src="../assets/img/footer-periscope.png" alt="per logo"></a></li>
+                    <li><a href="#"><img src="@/assets/img/footer-facebook.png" alt="fb logo"></a></li>
+                    <li><a href="#"><img src="@/assets/img/footer-twitter.png" alt="tw logo"></a></li>
+                    <li><a href="#"><img src="@/assets/img/footer-youtube.png" alt="yt logo"></a></li>
+                    <li><a href="#"><img src="@/assets/img/footer-pinterest.png" alt="pi logo"></a></li>
+                    <li><a href="#"><img src="@/assets/img/footer-periscope.png" alt="per logo"></a></li>
                 </ul>
             </div>
         </div>
@@ -71,7 +71,7 @@ export default {
     footer{
         color: white;
         .footerTop{
-            background-image: url('../assets/img/footer-bg.jpg');
+            background-image: url('@/assets/img/footer-bg.jpg');
             .topFooterContainer{
                 margin: auto;
                 width: 80%;
@@ -86,7 +86,6 @@ export default {
                         color: lightgray;
                     }
                 }
-                .bgLogo{overflow: hidden;}
             }
         }
         .footerBottom{
