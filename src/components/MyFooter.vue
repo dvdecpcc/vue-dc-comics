@@ -84,6 +84,7 @@ export default {
                     li{
                         list-style: none;
                         color: lightgray;
+                        text-decoration: none;
                     }
                 }
             }
@@ -109,6 +110,8 @@ export default {
                 ul li {
                     padding: 0px 8px;
                     display: inline-block;
+                    text-decoration: none;
+
                 }
             }
         }
