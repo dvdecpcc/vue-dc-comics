@@ -6,9 +6,10 @@
           <img :src="card.thumb" alt="card.type">
         </div>
         <p>{{card.series}}</p>
-      </div>
-    </div>
+        </div>
     <div class="btn">LOAD MORE</div>
+    </div>
+   
   </main>
 </template>
 
@@ -98,34 +99,45 @@ export default {
 
 <style scoped lang='scss'>
     main{
-        height: 150px;
         width: 100%;
-        color: white;
-        background-color: rgb(1, 130, 249);
 
         .container{
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-between;
-          padding: 40px;
-        }
-        .myCard{
-          margin: 8px;
-          flex-basis: calc(100%/7);
-        }
-        .imgWrapper{
-          height: 100px;
-          width: 100px;
-          overflow: hidden;
+          justify-content: space-around;
+          padding: 50px 350px;
+          background-color: rgb(28,28,28);
 
-          img{
-            max-width: 100%;
-          }
-          p{
-            font-size: small;
-            margin: 10px;
-            color: white;
-          }
+        
+         .myCard{
+           margin: 8px;
+           flex-basis: calc(100% / 6);
+         }
+         .imgWrapper{
+           height: 80px;
+           width: 80px;
+           overflow: hidden;
+
+           img{
+             max-width: 100%;
+             margin: 15px;
+           }
+          } 
+        p{
+          font-size: 10px;
+          margin: 10px;
+          color: white;
         }
+         
+        } 
+      .btn{
+        margin-top: 50px;
+        background-color: rgb(1, 130, 249);
+        color: white;
+        width: 100px;
+        margin:20px auto;
+        padding: 10px;
+      }
+        
     }
 </style>

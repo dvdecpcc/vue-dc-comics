@@ -95,6 +95,7 @@ export default {
         &:hover{
             cursor: pointer;
             color: rgb(1, 130, 249);
+            border-bottom: 2px solid rgb(1, 130, 249);
         }
     }
 
